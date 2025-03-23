@@ -1,0 +1,52 @@
+
+*{ 
+    margin: 1px;;
+    padding:1;
+ } 
+.head{
+    /* margin: 0; */
+    width:100%;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("E:\unnamed.jpg");
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+nav{
+    /* image-orientation: from-image; */
+    display:flex;
+    padding:2% 2%;
+    align-items: center;
+}
+
+.kv1{
+    background-color:lightsteelblue;
+    border: solid;
+    border-color: black;
+    padding:3%;
+    font-size:x-large;
+    
+}
+.kv2{
+    background-color:beige;
+    font-size:x-large;
+    border: solid;
+    border-color: black;
+    
+}
+.G{
+    text-align: center;
+    width: 25%;
+}
+.H{
+    padding: 1%;
+}
+
+.news{
+    background-color:lightsteelblue;
+}
+footer{
+   
+    column-count: 4;
+    font-size:x-large;
+}
